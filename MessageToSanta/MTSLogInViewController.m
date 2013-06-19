@@ -35,7 +35,7 @@
 #pragma mark - actions
 
 - (void) logIn {
-    
+    exit(0);
 }
 
 #pragma mark - outlets actions

@@ -16,6 +16,30 @@
 		84B17AFB177204B200DE86A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AFA177204B200DE86A7 /* CoreData.framework */; };
 		84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17B021772082300DE86A7 /* MTSRegisterViewController.m */; };
 		84B17B051772082300DE86A7 /* MTSRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */; };
+		84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17B0917720D3D00DE86A7 /* MTSDrawingViewController.m */; };
+		84B17B0C17720D3D00DE86A7 /* MTSDrawingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B0A17720D3D00DE86A7 /* MTSDrawingViewController.xib */; };
+		84B17B241772100D00DE86A7 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B0E1772100D00DE86A7 /* b.png */; };
+		84B17B251772100D00DE86A7 /* Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B0F1772100D00DE86A7 /* Black.png */; };
+		84B17B261772100D00DE86A7 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B101772100D00DE86A7 /* Blue.png */; };
+		84B17B271772100D00DE86A7 /* Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B111772100D00DE86A7 /* Brown.png */; };
+		84B17B281772100D00DE86A7 /* Custom-Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B121772100D00DE86A7 /* Custom-Color.png */; };
+		84B17B291772100D00DE86A7 /* DarkGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B131772100D00DE86A7 /* DarkGreen.png */; };
+		84B17B2A1772100D00DE86A7 /* DarkOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B141772100D00DE86A7 /* DarkOrange.png */; };
+		84B17B2B1772100D00DE86A7 /* Eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B151772100D00DE86A7 /* Eraser.png */; };
+		84B17B2C1772100D00DE86A7 /* g.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B161772100D00DE86A7 /* g.png */; };
+		84B17B2D1772100D00DE86A7 /* Grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B171772100D00DE86A7 /* Grey.png */; };
+		84B17B2E1772100D00DE86A7 /* LightBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B181772100D00DE86A7 /* LightBlue.png */; };
+		84B17B2F1772100D00DE86A7 /* LightGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B191772100D00DE86A7 /* LightGreen.png */; };
+		84B17B301772100D00DE86A7 /* Opacity.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B1A1772100D00DE86A7 /* Opacity.png */; };
+		84B17B311772100D00DE86A7 /* r.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B1B1772100D00DE86A7 /* r.png */; };
+		84B17B321772100D00DE86A7 /* Red.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B1C1772100D00DE86A7 /* Red.png */; };
+		84B17B331772100D00DE86A7 /* reset-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B1D1772100D00DE86A7 /* reset-Small.png */; };
+		84B17B341772100D00DE86A7 /* Save-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B1E1772100D00DE86A7 /* Save-Small.png */; };
+		84B17B351772100D00DE86A7 /* Setting-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B1F1772100D00DE86A7 /* Setting-1.png */; };
+		84B17B361772100D00DE86A7 /* Setting-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B201772100D00DE86A7 /* Setting-2.png */; };
+		84B17B371772100D00DE86A7 /* thickness.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B211772100D00DE86A7 /* thickness.png */; };
+		84B17B381772100D00DE86A7 /* width.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B221772100D00DE86A7 /* width.png */; };
+		84B17B391772100D00DE86A7 /* Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B231772100D00DE86A7 /* Yellow.png */; };
 		84B45A4117707C29004A1E84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4017707C29004A1E84 /* UIKit.framework */; };
 		84B45A4317707C29004A1E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4217707C29004A1E84 /* Foundation.framework */; };
 		84B45A4517707C29004A1E84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4417707C29004A1E84 /* CoreGraphics.framework */; };
@@ -42,6 +66,31 @@
 		84B17B011772082300DE86A7 /* MTSRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRegisterViewController.h; sourceTree = "<group>"; };
 		84B17B021772082300DE86A7 /* MTSRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRegisterViewController.m; sourceTree = "<group>"; };
 		84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRegisterViewController.xib; sourceTree = "<group>"; };
+		84B17B0817720D3D00DE86A7 /* MTSDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSDrawingViewController.h; sourceTree = "<group>"; };
+		84B17B0917720D3D00DE86A7 /* MTSDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSDrawingViewController.m; sourceTree = "<group>"; };
+		84B17B0A17720D3D00DE86A7 /* MTSDrawingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSDrawingViewController.xib; sourceTree = "<group>"; };
+		84B17B0E1772100D00DE86A7 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		84B17B0F1772100D00DE86A7 /* Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Black.png; sourceTree = "<group>"; };
+		84B17B101772100D00DE86A7 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		84B17B111772100D00DE86A7 /* Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Brown.png; sourceTree = "<group>"; };
+		84B17B121772100D00DE86A7 /* Custom-Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Custom-Color.png"; sourceTree = "<group>"; };
+		84B17B131772100D00DE86A7 /* DarkGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkGreen.png; sourceTree = "<group>"; };
+		84B17B141772100D00DE86A7 /* DarkOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkOrange.png; sourceTree = "<group>"; };
+		84B17B151772100D00DE86A7 /* Eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eraser.png; sourceTree = "<group>"; };
+		84B17B161772100D00DE86A7 /* g.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = g.png; sourceTree = "<group>"; };
+		84B17B171772100D00DE86A7 /* Grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grey.png; sourceTree = "<group>"; };
+		84B17B181772100D00DE86A7 /* LightBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBlue.png; sourceTree = "<group>"; };
+		84B17B191772100D00DE86A7 /* LightGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightGreen.png; sourceTree = "<group>"; };
+		84B17B1A1772100D00DE86A7 /* Opacity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Opacity.png; sourceTree = "<group>"; };
+		84B17B1B1772100D00DE86A7 /* r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = r.png; sourceTree = "<group>"; };
+		84B17B1C1772100D00DE86A7 /* Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red.png; sourceTree = "<group>"; };
+		84B17B1D1772100D00DE86A7 /* reset-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-Small.png"; sourceTree = "<group>"; };
+		84B17B1E1772100D00DE86A7 /* Save-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Save-Small.png"; sourceTree = "<group>"; };
+		84B17B1F1772100D00DE86A7 /* Setting-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-1.png"; sourceTree = "<group>"; };
+		84B17B201772100D00DE86A7 /* Setting-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Setting-2.png"; sourceTree = "<group>"; };
+		84B17B211772100D00DE86A7 /* thickness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thickness.png; sourceTree = "<group>"; };
+		84B17B221772100D00DE86A7 /* width.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = width.png; sourceTree = "<group>"; };
+		84B17B231772100D00DE86A7 /* Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Yellow.png; sourceTree = "<group>"; };
 		84B45A3D17707C29004A1E84 /* MessageToSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageToSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B45A4017707C29004A1E84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B45A4217707C29004A1E84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,6 +151,45 @@
 			name = RegisterViewController;
 			sourceTree = "<group>";
 		};
+		84B17B0717720D0700DE86A7 /* DrawingController */ = {
+			isa = PBXGroup;
+			children = (
+				84B17B0817720D3D00DE86A7 /* MTSDrawingViewController.h */,
+				84B17B0917720D3D00DE86A7 /* MTSDrawingViewController.m */,
+				84B17B0A17720D3D00DE86A7 /* MTSDrawingViewController.xib */,
+			);
+			name = DrawingController;
+			sourceTree = "<group>";
+		};
+		84B17B0D1772100D00DE86A7 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				84B17B0E1772100D00DE86A7 /* b.png */,
+				84B17B0F1772100D00DE86A7 /* Black.png */,
+				84B17B101772100D00DE86A7 /* Blue.png */,
+				84B17B111772100D00DE86A7 /* Brown.png */,
+				84B17B121772100D00DE86A7 /* Custom-Color.png */,
+				84B17B131772100D00DE86A7 /* DarkGreen.png */,
+				84B17B141772100D00DE86A7 /* DarkOrange.png */,
+				84B17B151772100D00DE86A7 /* Eraser.png */,
+				84B17B161772100D00DE86A7 /* g.png */,
+				84B17B171772100D00DE86A7 /* Grey.png */,
+				84B17B181772100D00DE86A7 /* LightBlue.png */,
+				84B17B191772100D00DE86A7 /* LightGreen.png */,
+				84B17B1A1772100D00DE86A7 /* Opacity.png */,
+				84B17B1B1772100D00DE86A7 /* r.png */,
+				84B17B1C1772100D00DE86A7 /* Red.png */,
+				84B17B1D1772100D00DE86A7 /* reset-Small.png */,
+				84B17B1E1772100D00DE86A7 /* Save-Small.png */,
+				84B17B1F1772100D00DE86A7 /* Setting-1.png */,
+				84B17B201772100D00DE86A7 /* Setting-2.png */,
+				84B17B211772100D00DE86A7 /* thickness.png */,
+				84B17B221772100D00DE86A7 /* width.png */,
+				84B17B231772100D00DE86A7 /* Yellow.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
 		84B45A3417707C29004A1E84 = {
 			isa = PBXGroup;
 			children = (
@@ -134,10 +222,11 @@
 		84B45A4617707C29004A1E84 /* MessageToSanta */ = {
 			isa = PBXGroup;
 			children = (
+				84B17B0D1772100D00DE86A7 /* Graphics */,
+				84B45A5D1770802B004A1E84 /* ViewControllers */,
 				84B17AE71771E0E000DE86A7 /* Resources */,
 				84B45A6C177080D2004A1E84 /* Models */,
 				84B45A6B177080C5004A1E84 /* CoreData */,
-				84B45A5D1770802B004A1E84 /* ViewControllers */,
 				84B45A4F17707C29004A1E84 /* MTSAppDelegate.h */,
 				84B45A5017707C29004A1E84 /* MTSAppDelegate.m */,
 				84B45A4717707C29004A1E84 /* Supporting Files */,
@@ -162,6 +251,7 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84B17B0717720D0700DE86A7 /* DrawingController */,
 				84B17AFD177207EA00DE86A7 /* RegisterViewController */,
 				84B17AFC177207D100DE86A7 /* LogInViewController */,
 			);
@@ -246,6 +336,29 @@
 				84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */,
 				84B17AF6177201FB00DE86A7 /* MTSLogInViewController.xib in Resources */,
 				84B17B051772082300DE86A7 /* MTSRegisterViewController.xib in Resources */,
+				84B17B0C17720D3D00DE86A7 /* MTSDrawingViewController.xib in Resources */,
+				84B17B241772100D00DE86A7 /* b.png in Resources */,
+				84B17B251772100D00DE86A7 /* Black.png in Resources */,
+				84B17B261772100D00DE86A7 /* Blue.png in Resources */,
+				84B17B271772100D00DE86A7 /* Brown.png in Resources */,
+				84B17B281772100D00DE86A7 /* Custom-Color.png in Resources */,
+				84B17B291772100D00DE86A7 /* DarkGreen.png in Resources */,
+				84B17B2A1772100D00DE86A7 /* DarkOrange.png in Resources */,
+				84B17B2B1772100D00DE86A7 /* Eraser.png in Resources */,
+				84B17B2C1772100D00DE86A7 /* g.png in Resources */,
+				84B17B2D1772100D00DE86A7 /* Grey.png in Resources */,
+				84B17B2E1772100D00DE86A7 /* LightBlue.png in Resources */,
+				84B17B2F1772100D00DE86A7 /* LightGreen.png in Resources */,
+				84B17B301772100D00DE86A7 /* Opacity.png in Resources */,
+				84B17B311772100D00DE86A7 /* r.png in Resources */,
+				84B17B321772100D00DE86A7 /* Red.png in Resources */,
+				84B17B331772100D00DE86A7 /* reset-Small.png in Resources */,
+				84B17B341772100D00DE86A7 /* Save-Small.png in Resources */,
+				84B17B351772100D00DE86A7 /* Setting-1.png in Resources */,
+				84B17B361772100D00DE86A7 /* Setting-2.png in Resources */,
+				84B17B371772100D00DE86A7 /* thickness.png in Resources */,
+				84B17B381772100D00DE86A7 /* width.png in Resources */,
+				84B17B391772100D00DE86A7 /* Yellow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +376,7 @@
 				84B17AF5177201FB00DE86A7 /* MTSLogInViewController.m in Sources */,
 				84B17AF91772041900DE86A7 /* MTSCoreDataManager.m in Sources */,
 				84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */,
+				84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
