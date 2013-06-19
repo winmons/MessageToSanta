@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84B17AE31771DF5900DE86A7 /* MTSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AE11771DF5900DE86A7 /* MTSLogInViewController.m */; };
-		84B17AE41771DF5900DE86A7 /* MTSLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AE21771DF5900DE86A7 /* MTSLogInViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
 		84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AE81771E11F00DE86A7 /* jingle.mp3 */; };
 		84B17AEC1771E41500DE86A7 /* MTSAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */; };
+		84B17AF5177201FB00DE86A7 /* MTSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AF3177201FB00DE86A7 /* MTSLogInViewController.m */; };
+		84B17AF6177201FB00DE86A7 /* MTSLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AF4177201FB00DE86A7 /* MTSLogInViewController.xib */; };
+		84B17AF91772041900DE86A7 /* MTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AF81772041900DE86A7 /* MTSCoreDataManager.m */; };
+		84B17AFB177204B200DE86A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AFA177204B200DE86A7 /* CoreData.framework */; };
+		84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17B021772082300DE86A7 /* MTSRegisterViewController.m */; };
+		84B17B051772082300DE86A7 /* MTSRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */; };
 		84B45A4117707C29004A1E84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4017707C29004A1E84 /* UIKit.framework */; };
 		84B45A4317707C29004A1E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4217707C29004A1E84 /* Foundation.framework */; };
 		84B45A4517707C29004A1E84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4417707C29004A1E84 /* CoreGraphics.framework */; };
@@ -25,13 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		84B17AE01771DF5900DE86A7 /* MTSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSLogInViewController.h; sourceTree = "<group>"; };
-		84B17AE11771DF5900DE86A7 /* MTSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSLogInViewController.m; sourceTree = "<group>"; };
-		84B17AE21771DF5900DE86A7 /* MTSLogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSLogInViewController.xib; sourceTree = "<group>"; };
 		84B17AE51771E07900DE86A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84B17AE81771E11F00DE86A7 /* jingle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jingle.mp3; sourceTree = "<group>"; };
 		84B17AEA1771E41500DE86A7 /* MTSAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSAudioManager.h; sourceTree = "<group>"; };
 		84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSAudioManager.m; sourceTree = "<group>"; };
+		84B17AF2177201FB00DE86A7 /* MTSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSLogInViewController.h; sourceTree = "<group>"; };
+		84B17AF3177201FB00DE86A7 /* MTSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSLogInViewController.m; sourceTree = "<group>"; };
+		84B17AF4177201FB00DE86A7 /* MTSLogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSLogInViewController.xib; sourceTree = "<group>"; };
+		84B17AF71772041900DE86A7 /* MTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSCoreDataManager.h; sourceTree = "<group>"; };
+		84B17AF81772041900DE86A7 /* MTSCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSCoreDataManager.m; sourceTree = "<group>"; };
+		84B17AFA177204B200DE86A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84B17B011772082300DE86A7 /* MTSRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRegisterViewController.h; sourceTree = "<group>"; };
+		84B17B021772082300DE86A7 /* MTSRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRegisterViewController.m; sourceTree = "<group>"; };
+		84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRegisterViewController.xib; sourceTree = "<group>"; };
 		84B45A3D17707C29004A1E84 /* MessageToSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageToSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B45A4017707C29004A1E84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B45A4217707C29004A1E84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B17AFB177204B200DE86A7 /* CoreData.framework in Frameworks */,
 				84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */,
 				84B45A4117707C29004A1E84 /* UIKit.framework in Frameworks */,
 				84B45A4317707C29004A1E84 /* Foundation.framework in Frameworks */,
@@ -69,6 +80,26 @@
 				84B17AE81771E11F00DE86A7 /* jingle.mp3 */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		84B17AFC177207D100DE86A7 /* LogInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84B17AF2177201FB00DE86A7 /* MTSLogInViewController.h */,
+				84B17AF3177201FB00DE86A7 /* MTSLogInViewController.m */,
+				84B17AF4177201FB00DE86A7 /* MTSLogInViewController.xib */,
+			);
+			name = LogInViewController;
+			sourceTree = "<group>";
+		};
+		84B17AFD177207EA00DE86A7 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84B17B011772082300DE86A7 /* MTSRegisterViewController.h */,
+				84B17B021772082300DE86A7 /* MTSRegisterViewController.m */,
+				84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */,
+			);
+			name = RegisterViewController;
 			sourceTree = "<group>";
 		};
 		84B45A3417707C29004A1E84 = {
@@ -91,6 +122,7 @@
 		84B45A3F17707C29004A1E84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84B17AFA177204B200DE86A7 /* CoreData.framework */,
 				84B17AE51771E07900DE86A7 /* AVFoundation.framework */,
 				84B45A4017707C29004A1E84 /* UIKit.framework */,
 				84B45A4217707C29004A1E84 /* Foundation.framework */,
@@ -130,9 +162,8 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				84B17AE01771DF5900DE86A7 /* MTSLogInViewController.h */,
-				84B17AE11771DF5900DE86A7 /* MTSLogInViewController.m */,
-				84B17AE21771DF5900DE86A7 /* MTSLogInViewController.xib */,
+				84B17AFD177207EA00DE86A7 /* RegisterViewController */,
+				84B17AFC177207D100DE86A7 /* LogInViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -141,6 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				84B45A68177080BF004A1E84 /* MTSDataModel.xcdatamodeld */,
+				84B17AF71772041900DE86A7 /* MTSCoreDataManager.h */,
+				84B17AF81772041900DE86A7 /* MTSCoreDataManager.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -210,8 +243,9 @@
 				84B45A5317707C29004A1E84 /* Default.png in Resources */,
 				84B45A5517707C29004A1E84 /* Default@2x.png in Resources */,
 				84B45A5717707C29004A1E84 /* Default-568h@2x.png in Resources */,
-				84B17AE41771DF5900DE86A7 /* MTSLogInViewController.xib in Resources */,
 				84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */,
+				84B17AF6177201FB00DE86A7 /* MTSLogInViewController.xib in Resources */,
+				84B17B051772082300DE86A7 /* MTSRegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +259,10 @@
 				84B45A4D17707C29004A1E84 /* main.m in Sources */,
 				84B45A5117707C29004A1E84 /* MTSAppDelegate.m in Sources */,
 				84B45A6A177080BF004A1E84 /* MTSDataModel.xcdatamodeld in Sources */,
-				84B17AE31771DF5900DE86A7 /* MTSLogInViewController.m in Sources */,
 				84B17AEC1771E41500DE86A7 /* MTSAudioManager.m in Sources */,
+				84B17AF5177201FB00DE86A7 /* MTSLogInViewController.m in Sources */,
+				84B17AF91772041900DE86A7 /* MTSCoreDataManager.m in Sources */,
+				84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

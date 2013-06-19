@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTSLogInViewController : UIViewController
+@interface MTSLogInViewController : UIViewController <UITextFieldDelegate>
+
+@property (strong, nonatomic) IBOutlet UIButton *logInButton;
+@property (strong, nonatomic) IBOutlet UITextField *nameTextField;
 
 @end
