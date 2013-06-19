@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B17AE31771DF5900DE86A7 /* MTSLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AE11771DF5900DE86A7 /* MTSLogInViewController.m */; };
+		84B17AE41771DF5900DE86A7 /* MTSLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AE21771DF5900DE86A7 /* MTSLogInViewController.xib */; };
+		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
+		84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AE81771E11F00DE86A7 /* jingle.mp3 */; };
+		84B17AEC1771E41500DE86A7 /* MTSAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */; };
 		84B45A4117707C29004A1E84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4017707C29004A1E84 /* UIKit.framework */; };
 		84B45A4317707C29004A1E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4217707C29004A1E84 /* Foundation.framework */; };
 		84B45A4517707C29004A1E84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B45A4417707C29004A1E84 /* CoreGraphics.framework */; };
@@ -20,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B17AE01771DF5900DE86A7 /* MTSLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSLogInViewController.h; sourceTree = "<group>"; };
+		84B17AE11771DF5900DE86A7 /* MTSLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSLogInViewController.m; sourceTree = "<group>"; };
+		84B17AE21771DF5900DE86A7 /* MTSLogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSLogInViewController.xib; sourceTree = "<group>"; };
+		84B17AE51771E07900DE86A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84B17AE81771E11F00DE86A7 /* jingle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jingle.mp3; sourceTree = "<group>"; };
+		84B17AEA1771E41500DE86A7 /* MTSAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSAudioManager.h; sourceTree = "<group>"; };
+		84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSAudioManager.m; sourceTree = "<group>"; };
 		84B45A3D17707C29004A1E84 /* MessageToSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageToSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B45A4017707C29004A1E84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B45A4217707C29004A1E84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -41,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */,
 				84B45A4117707C29004A1E84 /* UIKit.framework in Frameworks */,
 				84B45A4317707C29004A1E84 /* Foundation.framework in Frameworks */,
 				84B45A4517707C29004A1E84 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84B17AE71771E0E000DE86A7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84B17AE81771E11F00DE86A7 /* jingle.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		84B45A3417707C29004A1E84 = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +91,7 @@
 		84B45A3F17707C29004A1E84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84B17AE51771E07900DE86A7 /* AVFoundation.framework */,
 				84B45A4017707C29004A1E84 /* UIKit.framework */,
 				84B45A4217707C29004A1E84 /* Foundation.framework */,
 				84B45A4417707C29004A1E84 /* CoreGraphics.framework */,
@@ -80,6 +102,7 @@
 		84B45A4617707C29004A1E84 /* MessageToSanta */ = {
 			isa = PBXGroup;
 			children = (
+				84B17AE71771E0E000DE86A7 /* Resources */,
 				84B45A6C177080D2004A1E84 /* Models */,
 				84B45A6B177080C5004A1E84 /* CoreData */,
 				84B45A5D1770802B004A1E84 /* ViewControllers */,
@@ -107,6 +130,9 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84B17AE01771DF5900DE86A7 /* MTSLogInViewController.h */,
+				84B17AE11771DF5900DE86A7 /* MTSLogInViewController.m */,
+				84B17AE21771DF5900DE86A7 /* MTSLogInViewController.xib */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -122,6 +148,8 @@
 		84B45A6C177080D2004A1E84 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				84B17AEA1771E41500DE86A7 /* MTSAudioManager.h */,
+				84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -182,6 +210,8 @@
 				84B45A5317707C29004A1E84 /* Default.png in Resources */,
 				84B45A5517707C29004A1E84 /* Default@2x.png in Resources */,
 				84B45A5717707C29004A1E84 /* Default-568h@2x.png in Resources */,
+				84B17AE41771DF5900DE86A7 /* MTSLogInViewController.xib in Resources */,
+				84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +225,8 @@
 				84B45A4D17707C29004A1E84 /* main.m in Sources */,
 				84B45A5117707C29004A1E84 /* MTSAppDelegate.m in Sources */,
 				84B45A6A177080BF004A1E84 /* MTSDataModel.xcdatamodeld in Sources */,
+				84B17AE31771DF5900DE86A7 /* MTSLogInViewController.m in Sources */,
+				84B17AEC1771E41500DE86A7 /* MTSAudioManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

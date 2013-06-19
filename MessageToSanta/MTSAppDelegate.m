@@ -7,6 +7,7 @@
 //
 
 #import "MTSAppDelegate.h"
+#import "MTSLogInViewController.h"
 
 @implementation MTSAppDelegate
 
@@ -16,7 +17,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor blueColor];
     [self.window makeKeyAndVisible];
-//    self.window.rootViewController = logInViewController;
+    self.window.rootViewController = [MTSLogInViewController new];
     return YES;
 }
 
