@@ -16,6 +16,7 @@
 		84B45A5317707C29004A1E84 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B45A5217707C29004A1E84 /* Default.png */; };
 		84B45A5517707C29004A1E84 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B45A5417707C29004A1E84 /* Default@2x.png */; };
 		84B45A5717707C29004A1E84 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B45A5617707C29004A1E84 /* Default-568h@2x.png */; };
+		84B45A6A177080BF004A1E84 /* MTSDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B45A68177080BF004A1E84 /* MTSDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		84B45A5217707C29004A1E84 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		84B45A5417707C29004A1E84 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		84B45A5617707C29004A1E84 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84B45A69177080BF004A1E84 /* MTSDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MTSDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,9 @@
 		84B45A4617707C29004A1E84 /* MessageToSanta */ = {
 			isa = PBXGroup;
 			children = (
+				84B45A6C177080D2004A1E84 /* Models */,
+				84B45A6B177080C5004A1E84 /* CoreData */,
+				84B45A5D1770802B004A1E84 /* ViewControllers */,
 				84B45A4F17707C29004A1E84 /* MTSAppDelegate.h */,
 				84B45A5017707C29004A1E84 /* MTSAppDelegate.m */,
 				84B45A4717707C29004A1E84 /* Supporting Files */,
@@ -97,6 +102,28 @@
 				84B45A5617707C29004A1E84 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84B45A6B177080C5004A1E84 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				84B45A68177080BF004A1E84 /* MTSDataModel.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		84B45A6C177080D2004A1E84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +194,7 @@
 			files = (
 				84B45A4D17707C29004A1E84 /* main.m in Sources */,
 				84B45A5117707C29004A1E84 /* MTSAppDelegate.m in Sources */,
+				84B45A6A177080BF004A1E84 /* MTSDataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,8 +311,22 @@
 				84B45A5C17707C29004A1E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B45A68177080BF004A1E84 /* MTSDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B45A69177080BF004A1E84 /* MTSDataModel.xcdatamodel */,
+			);
+			currentVersion = 84B45A69177080BF004A1E84 /* MTSDataModel.xcdatamodel */;
+			path = MTSDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 84B45A3517707C29004A1E84 /* Project object */;
 }
