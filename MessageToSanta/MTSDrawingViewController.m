@@ -30,7 +30,7 @@
     blue = 0.0/255.0;
     brush = 10.0;
     opacity = 1.0;
-    
+    self.brushSlider.value = brush;
     [super viewDidLoad];
 }
 
@@ -47,6 +47,9 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)brushValueChanged:(id)sender {
+    brush = self.brushSlider.value;
+}
 
 
 - (IBAction)pencilPressed:(id)sender {
@@ -113,17 +116,13 @@
     }
 }
 
-- (IBAction)eraserPressed:(id)sender {
-    
-    red = 255.0/255.0;
-    green = 255.0/255.0;
-    blue = 255.0/255.0;
-    opacity = 1.0;
-}
-
 - (IBAction)reset:(id)sender {
     
     self.mainImage.image = nil;
+    
+}
+
+- (IBAction)saveButtonTouch:(id)sender {
     
 }
 
