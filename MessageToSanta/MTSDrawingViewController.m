@@ -47,6 +47,8 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+
+
 - (IBAction)pencilPressed:(id)sender {
     
     UIButton * PressedButton = (UIButton*)sender;
@@ -102,6 +104,11 @@
             red = 255.0/255.0;
             green = 255.0/255.0;
             blue = 0.0/255.0;
+            break;
+        case 10:
+            red = 1;
+            green = 1;
+            blue = 1;
             break;
     }
 }
