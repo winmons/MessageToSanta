@@ -14,6 +14,8 @@
 
 @implementation MTSDrawingViewController
 
+#pragma mark - initialize methods
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -42,10 +44,8 @@
     // Release any retained subviews of the main view.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
+
+#pragma mark - outlets actions
 
 - (IBAction)brushValueChanged:(id)sender {
     brush = self.brushSlider.value;
@@ -123,8 +123,27 @@
 }
 
 - (IBAction)saveButtonTouch:(id)sender {
-    
+    UIGraphicsBeginImageContextWithOptions(self.mainImage.bounds.size, NO, 0.0);
+    [self.mainImage.image drawInRect:CGRectMake(0, 0, self.mainImage.frame.size.width, self.mainImage.frame.size.height)];
+    UIImage *SaveImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    UIImageWriteToSavedPhotosAlbum(SaveImage, self,@selector(image:didFinishSavingWithError:contextInfo:), nil);
 }
+
+- (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
+{
+    if (error != NULL)
+    {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Image could not be saved.Please try again"  delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Close", nil];
+        [alert show];
+    } else {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Success" message:@"Image was successfully saved in photoalbum"  delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Close", nil];
+        [alert show];
+    }
+}
+
+
+#pragma mark - drawing methods
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     
