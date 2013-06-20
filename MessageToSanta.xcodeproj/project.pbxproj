@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
+		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
 		84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AE81771E11F00DE86A7 /* jingle.mp3 */; };
 		84B17AEC1771E41500DE86A7 /* MTSAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */; };
@@ -53,6 +55,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
+		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
+		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
 		84B17AE51771E07900DE86A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84B17AE81771E11F00DE86A7 /* jingle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jingle.mp3; sourceTree = "<group>"; };
 		84B17AEA1771E41500DE86A7 /* MTSAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSAudioManager.h; sourceTree = "<group>"; };
@@ -123,6 +128,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84B07DF817730B94009742B8 /* RecorderController */ = {
+			isa = PBXGroup;
+			children = (
+				84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */,
+				84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */,
+				84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */,
+			);
+			name = RecorderController;
+			sourceTree = "<group>";
+		};
 		84B17AE71771E0E000DE86A7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +266,7 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84B07DF817730B94009742B8 /* RecorderController */,
 				84B17B0717720D0700DE86A7 /* DrawingController */,
 				84B17AFD177207EA00DE86A7 /* RegisterViewController */,
 				84B17AFC177207D100DE86A7 /* LogInViewController */,
@@ -359,6 +375,7 @@
 				84B17B371772100D00DE86A7 /* thickness.png in Resources */,
 				84B17B381772100D00DE86A7 /* width.png in Resources */,
 				84B17B391772100D00DE86A7 /* Yellow.png in Resources */,
+				84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +394,7 @@
 				84B17AF91772041900DE86A7 /* MTSCoreDataManager.m in Sources */,
 				84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */,
 				84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */,
+				84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
