@@ -17,6 +17,7 @@
 @property (nonatomic, retain) NSNumber * index;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * age;
+@property (nonatomic, retain) NSString * color;
 @property (nonatomic, retain) NSSet *mails;
 @property (nonatomic, retain) NSSet *pictures;
 @property (nonatomic, retain) NSSet *records;

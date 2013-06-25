@@ -2,6 +2,7 @@
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
     <entity name="Kid" representedClassName="Kid" parentEntity="Parent" syncable="YES">
         <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="mails" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Mail" inverseName="kid" inverseEntity="Mail" syncable="YES"/>
@@ -30,7 +31,7 @@
         <relationship name="kid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kid" inverseName="records" inverseEntity="Kid" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Kid" positionX="-576" positionY="-81" width="128" height="133"/>
+        <element name="Kid" positionX="-576" positionY="-81" width="128" height="148"/>
         <element name="Mail" positionX="-794" positionY="-198" width="128" height="148"/>
         <element name="Picture" positionX="-245" positionY="-45" width="128" height="88"/>
         <element name="Parent" positionX="-468" positionY="-261" width="128" height="43"/>

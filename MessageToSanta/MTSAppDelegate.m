@@ -8,7 +8,7 @@
 
 #import "MTSAppDelegate.h"
 #import "MTSLogInViewController.h"
-#import "MTSRegisterViewController.h"
+#import "MTSNewKidViewController.h"
 #import "MTSDataManager.h"
 
 @implementation MTSAppDelegate
@@ -23,7 +23,7 @@
         self.window.rootViewController = [MTSLogInViewController new];
     }
     else {
-        self.window.rootViewController = [MTSRegisterViewController new];
+        self.window.rootViewController = [MTSNewKidViewController new];
     }
     return YES;
 }

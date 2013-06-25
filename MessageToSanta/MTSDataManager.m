@@ -49,8 +49,12 @@
     return [context executeFetchRequest:fetch error:nil];
 }
 
-+ (void) addNewKidToDataBaseWithName : (NSString *) name age : (NSInteger *) age favouriteColor : (UIColor *) color {
-    
++ (void) addNewKidToDataBaseWithName : (NSString *) name age : (NSNumber *) age favouriteColor : (NSString *) color {
+    Kid * newKid = [Kid insertObject];
+    newKid.name = name;
+    newKid.age = age;
+    newKid.color = color;
+    [[MTSCoreDataManager coreDataManager]saveContext];
 }
 
 @end

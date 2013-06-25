@@ -10,7 +10,7 @@
 #import "MTSDataManager.h"
 #import "Kid.h"
 #import "MTSMenuViewController.h"
-#import "MTSRegisterViewController.h"
+#import "MTSNewKidViewController.h"
 
 @interface MTSLogInViewController ()
 @property (nonatomic, strong) NSArray * kidsArray;
@@ -54,7 +54,7 @@
 }
 
 - (IBAction)notInTheListButtonTouch:(id)sender {
-    MTSRegisterViewController * registerViewController = [MTSRegisterViewController new];
+    MTSNewKidViewController * registerViewController = [MTSNewKidViewController new];
     [self presentViewController:registerViewController animated:YES completion:nil];
 }
 

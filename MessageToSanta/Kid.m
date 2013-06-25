@@ -17,6 +17,7 @@
 @dynamic index;
 @dynamic name;
 @dynamic age;
+@dynamic color;
 @dynamic mails;
 @dynamic pictures;
 @dynamic records;

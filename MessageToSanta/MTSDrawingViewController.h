@@ -18,7 +18,6 @@
     CGFloat opacity;
     BOOL mouseSwiped;    
 }
-
 @property (weak, nonatomic) IBOutlet UIImageView *mainImage;
 @property (weak, nonatomic) IBOutlet UIImageView *tempDrawImage;
 @property (strong, nonatomic) IBOutlet UISlider *brushSlider;

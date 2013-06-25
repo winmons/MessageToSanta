@@ -12,4 +12,5 @@
 + (NSArray *) allKidsNamesAgesArray;
 + (BOOL) kidsAlreadyExists;
 + (NSArray *) kidsArray;
++ (void) addNewKidToDataBaseWithName : (NSString *) name age : (NSNumber *) age favouriteColor : (NSString *) color;
 @end

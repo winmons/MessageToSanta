@@ -11,10 +11,13 @@
 		84A6DCCB1779B9190063F521 /* MTSMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DCC91779B9190063F521 /* MTSMenuViewController.xib */; };
 		84A6DCF21779BE8E0063F521 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF11779BE8E0063F521 /* Record.m */; };
 		84A6DCF51779BE8F0063F521 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF41779BE8F0063F521 /* Picture.m */; };
-		84A6DCF81779BE8F0063F521 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF71779BE8F0063F521 /* Kid.m */; };
 		84A6DCFB1779BE8F0063F521 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCFA1779BE8F0063F521 /* Mail.m */; };
 		84A6DCFE1779BE900063F521 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCFD1779BE900063F521 /* Parent.m */; };
 		84A6DD011779BF9D0063F521 /* MTSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD001779BF9D0063F521 /* MTSDataManager.m */; };
+		84A6DD041779DAC30063F521 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD031779DAC30063F521 /* Kid.m */; };
+		84A6DD0E1779DC800063F521 /* MTSNewKidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD0C1779DC800063F521 /* MTSNewKidViewController.m */; };
+		84A6DD0F1779DC800063F521 /* MTSNewKidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD0D1779DC800063F521 /* MTSNewKidViewController.xib */; };
+		84A6DD111779E9390063F521 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A6DD101779E9390063F521 /* CoreImage.framework */; };
 		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
 		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
@@ -24,8 +27,6 @@
 		84B17AF6177201FB00DE86A7 /* MTSLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17AF4177201FB00DE86A7 /* MTSLogInViewController.xib */; };
 		84B17AF91772041900DE86A7 /* MTSCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17AF81772041900DE86A7 /* MTSCoreDataManager.m */; };
 		84B17AFB177204B200DE86A7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AFA177204B200DE86A7 /* CoreData.framework */; };
-		84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17B021772082300DE86A7 /* MTSRegisterViewController.m */; };
-		84B17B051772082300DE86A7 /* MTSRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */; };
 		84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B17B0917720D3D00DE86A7 /* MTSDrawingViewController.m */; };
 		84B17B0C17720D3D00DE86A7 /* MTSDrawingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B0A17720D3D00DE86A7 /* MTSDrawingViewController.xib */; };
 		84B17B241772100D00DE86A7 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B17B0E1772100D00DE86A7 /* b.png */; };
@@ -70,14 +71,18 @@
 		84A6DCF11779BE8E0063F521 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
 		84A6DCF31779BE8F0063F521 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
 		84A6DCF41779BE8F0063F521 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
-		84A6DCF61779BE8F0063F521 /* Kid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kid.h; sourceTree = "<group>"; };
-		84A6DCF71779BE8F0063F521 /* Kid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
 		84A6DCF91779BE8F0063F521 /* Mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
 		84A6DCFA1779BE8F0063F521 /* Mail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
 		84A6DCFC1779BE900063F521 /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
 		84A6DCFD1779BE900063F521 /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
 		84A6DCFF1779BF9D0063F521 /* MTSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSDataManager.h; sourceTree = "<group>"; };
 		84A6DD001779BF9D0063F521 /* MTSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSDataManager.m; sourceTree = "<group>"; };
+		84A6DD021779DAC30063F521 /* Kid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kid.h; sourceTree = "<group>"; };
+		84A6DD031779DAC30063F521 /* Kid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
+		84A6DD0B1779DC800063F521 /* MTSNewKidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSNewKidViewController.h; sourceTree = "<group>"; };
+		84A6DD0C1779DC800063F521 /* MTSNewKidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSNewKidViewController.m; sourceTree = "<group>"; };
+		84A6DD0D1779DC800063F521 /* MTSNewKidViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSNewKidViewController.xib; sourceTree = "<group>"; };
+		84A6DD101779E9390063F521 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
 		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
 		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
@@ -91,9 +96,6 @@
 		84B17AF71772041900DE86A7 /* MTSCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSCoreDataManager.h; sourceTree = "<group>"; };
 		84B17AF81772041900DE86A7 /* MTSCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSCoreDataManager.m; sourceTree = "<group>"; };
 		84B17AFA177204B200DE86A7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		84B17B011772082300DE86A7 /* MTSRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRegisterViewController.h; sourceTree = "<group>"; };
-		84B17B021772082300DE86A7 /* MTSRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRegisterViewController.m; sourceTree = "<group>"; };
-		84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRegisterViewController.xib; sourceTree = "<group>"; };
 		84B17B0817720D3D00DE86A7 /* MTSDrawingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSDrawingViewController.h; sourceTree = "<group>"; };
 		84B17B0917720D3D00DE86A7 /* MTSDrawingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSDrawingViewController.m; sourceTree = "<group>"; };
 		84B17B0A17720D3D00DE86A7 /* MTSDrawingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSDrawingViewController.xib; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A6DD111779E9390063F521 /* CoreImage.framework in Frameworks */,
 				84B17AFB177204B200DE86A7 /* CoreData.framework in Frameworks */,
 				84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */,
 				84B45A4117707C29004A1E84 /* UIKit.framework in Frameworks */,
@@ -200,6 +203,16 @@
 			name = GameViewController;
 			sourceTree = "<group>";
 		};
+		84A6DD0A1779DC6E0063F521 /* NewKidViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A6DD0B1779DC800063F521 /* MTSNewKidViewController.h */,
+				84A6DD0C1779DC800063F521 /* MTSNewKidViewController.m */,
+				84A6DD0D1779DC800063F521 /* MTSNewKidViewController.xib */,
+			);
+			name = NewKidViewController;
+			sourceTree = "<group>";
+		};
 		84B07DF817730B94009742B8 /* RecorderController */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,16 +239,6 @@
 				84B17AF4177201FB00DE86A7 /* MTSLogInViewController.xib */,
 			);
 			name = LogInViewController;
-			sourceTree = "<group>";
-		};
-		84B17AFD177207EA00DE86A7 /* RegisterViewController */ = {
-			isa = PBXGroup;
-			children = (
-				84B17B011772082300DE86A7 /* MTSRegisterViewController.h */,
-				84B17B021772082300DE86A7 /* MTSRegisterViewController.m */,
-				84B17B031772082300DE86A7 /* MTSRegisterViewController.xib */,
-			);
-			name = RegisterViewController;
 			sourceTree = "<group>";
 		};
 		84B17B0717720D0700DE86A7 /* DrawingController */ = {
@@ -297,6 +300,7 @@
 		84B45A3F17707C29004A1E84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DD101779E9390063F521 /* CoreImage.framework */,
 				84B17AFA177204B200DE86A7 /* CoreData.framework */,
 				84B17AE51771E07900DE86A7 /* AVFoundation.framework */,
 				84B45A4017707C29004A1E84 /* UIKit.framework */,
@@ -338,13 +342,13 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DD0A1779DC6E0063F521 /* NewKidViewController */,
 				84A6DCC61779B8F30063F521 /* GameViewController */,
 				84A6DCC31779B8450063F521 /* MenuViewController */,
 				84A6DCC21779AC190063F521 /* SendMailController */,
 				84A6DCC11779AC060063F521 /* MailBoxController */,
 				84B07DF817730B94009742B8 /* RecorderController */,
 				84B17B0717720D0700DE86A7 /* DrawingController */,
-				84B17AFD177207EA00DE86A7 /* RegisterViewController */,
 				84B17AFC177207D100DE86A7 /* LogInViewController */,
 			);
 			name = ViewControllers;
@@ -360,12 +364,12 @@
 				84A6DCF11779BE8E0063F521 /* Record.m */,
 				84A6DCF31779BE8F0063F521 /* Picture.h */,
 				84A6DCF41779BE8F0063F521 /* Picture.m */,
-				84A6DCF61779BE8F0063F521 /* Kid.h */,
-				84A6DCF71779BE8F0063F521 /* Kid.m */,
 				84A6DCF91779BE8F0063F521 /* Mail.h */,
 				84A6DCFA1779BE8F0063F521 /* Mail.m */,
 				84A6DCFC1779BE900063F521 /* Parent.h */,
 				84A6DCFD1779BE900063F521 /* Parent.m */,
+				84A6DD021779DAC30063F521 /* Kid.h */,
+				84A6DD031779DAC30063F521 /* Kid.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -437,7 +441,6 @@
 				84B45A5717707C29004A1E84 /* Default-568h@2x.png in Resources */,
 				84B17AE91771E11F00DE86A7 /* jingle.mp3 in Resources */,
 				84B17AF6177201FB00DE86A7 /* MTSLogInViewController.xib in Resources */,
-				84B17B051772082300DE86A7 /* MTSRegisterViewController.xib in Resources */,
 				84B17B0C17720D3D00DE86A7 /* MTSDrawingViewController.xib in Resources */,
 				84B17B241772100D00DE86A7 /* b.png in Resources */,
 				84B17B251772100D00DE86A7 /* Black.png in Resources */,
@@ -463,6 +466,7 @@
 				84B17B391772100D00DE86A7 /* Yellow.png in Resources */,
 				84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */,
 				84A6DCCB1779B9190063F521 /* MTSMenuViewController.xib in Resources */,
+				84A6DD0F1779DC800063F521 /* MTSNewKidViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,16 +483,16 @@
 				84B17AEC1771E41500DE86A7 /* MTSAudioManager.m in Sources */,
 				84B17AF5177201FB00DE86A7 /* MTSLogInViewController.m in Sources */,
 				84B17AF91772041900DE86A7 /* MTSCoreDataManager.m in Sources */,
-				84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */,
 				84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */,
 				84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */,
 				84A6DCCA1779B9190063F521 /* MTSMenuViewController.m in Sources */,
 				84A6DCF21779BE8E0063F521 /* Record.m in Sources */,
 				84A6DCF51779BE8F0063F521 /* Picture.m in Sources */,
-				84A6DCF81779BE8F0063F521 /* Kid.m in Sources */,
 				84A6DCFB1779BE8F0063F521 /* Mail.m in Sources */,
 				84A6DCFE1779BE900063F521 /* Parent.m in Sources */,
 				84A6DD011779BF9D0063F521 /* MTSDataManager.m in Sources */,
+				84A6DD041779DAC30063F521 /* Kid.m in Sources */,
+				84A6DD0E1779DC800063F521 /* MTSNewKidViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
