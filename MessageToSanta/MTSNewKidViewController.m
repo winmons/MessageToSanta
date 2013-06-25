@@ -11,6 +11,7 @@
 #import <CoreImage/CoreImage.h>
 #import "MTSMenuViewController.h"
 #import "Kid.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface MTSNewKidViewController ()
 @property (nonatomic, strong) NSString * selectedColor;
@@ -38,10 +39,32 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (void) initializeButtons {
+    [self.view.subviews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if ([obj isKindOfClass:[UIButton class]]) {
+            UIButton * btn = (UIButton *)obj;
+            btn.layer.borderWidth = 1;
+            btn.layer.cornerRadius = 5;
+        }
+    }];
+
+}
+
 #pragma mark - outlets actions
 
 - (IBAction)colorButtonPressed:(id)sender {    
     UIButton * pressedButton = (UIButton*)sender;
+    pressedButton.layer.borderWidth = 5;
+    pressedButton.layer.cornerRadius = 5;
+    [self.view.subviews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+        if ([obj isKindOfClass:[UIButton class]]) {
+            UIButton * btn = (UIButton *)obj;
+            if (btn.tag != pressedButton.tag) {
+                btn.layer.borderWidth = 1;
+                btn.layer.cornerRadius = 5;
+            }
+        }
+    }];
     self.selectedColor = [CIColor colorWithCGColor:pressedButton.backgroundColor.CGColor].stringRepresentation;
     switch(pressedButton.tag) {
         case 101:
