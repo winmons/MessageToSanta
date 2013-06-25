@@ -19,7 +19,7 @@
     [request setIncludesSubentities:NO];     
     NSError *err;
     NSInteger count = [context countForFetchRequest:request error:&err];
-    if(count>=0) return YES;
+    if(count>0) return YES;
     else return NO;    
 }
 

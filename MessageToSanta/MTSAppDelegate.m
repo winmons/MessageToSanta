@@ -8,7 +8,8 @@
 
 #import "MTSAppDelegate.h"
 #import "MTSLogInViewController.h"
-#import "MTSDrawingViewController.h"
+#import "MTSRegisterViewController.h"
+#import "MTSDataManager.h"
 
 @implementation MTSAppDelegate
 
@@ -18,8 +19,12 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor blueColor];
     [self.window makeKeyAndVisible];
-//    self.window.rootViewController = [MTSLogInViewController new];
-    self.window.rootViewController = [MTSDrawingViewController new];
+    if ([MTSDataManager kidsAlreadyExists]) {
+        self.window.rootViewController = [MTSLogInViewController new];
+    }
+    else {
+        self.window.rootViewController = [MTSRegisterViewController new];
+    }
     return YES;
 }
 
