@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A6DCCA1779B9190063F521 /* MTSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCC81779B9190063F521 /* MTSMenuViewController.m */; };
+		84A6DCCB1779B9190063F521 /* MTSMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DCC91779B9190063F521 /* MTSMenuViewController.xib */; };
 		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
 		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
@@ -55,6 +57,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A6DCC71779B9190063F521 /* MTSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSMenuViewController.h; sourceTree = "<group>"; };
+		84A6DCC81779B9190063F521 /* MTSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSMenuViewController.m; sourceTree = "<group>"; };
+		84A6DCC91779B9190063F521 /* MTSMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSMenuViewController.xib; sourceTree = "<group>"; };
 		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
 		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
 		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
@@ -128,6 +133,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84A6DCC11779AC060063F521 /* MailBoxController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MailBoxController;
+			sourceTree = "<group>";
+		};
+		84A6DCC21779AC190063F521 /* SendMailController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SendMailController;
+			sourceTree = "<group>";
+		};
+		84A6DCC31779B8450063F521 /* MenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84A6DCC71779B9190063F521 /* MTSMenuViewController.h */,
+				84A6DCC81779B9190063F521 /* MTSMenuViewController.m */,
+				84A6DCC91779B9190063F521 /* MTSMenuViewController.xib */,
+			);
+			name = MenuViewController;
+			sourceTree = "<group>";
+		};
+		84A6DCC41779B8570063F521 /* AudioManager */ = {
+			isa = PBXGroup;
+			children = (
+				84B17AEA1771E41500DE86A7 /* MTSAudioManager.h */,
+				84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */,
+			);
+			name = AudioManager;
+			sourceTree = "<group>";
+		};
+		84A6DCC51779B8800063F521 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		84A6DCC61779B8F30063F521 /* GameViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GameViewController;
+			sourceTree = "<group>";
+		};
 		84B07DF817730B94009742B8 /* RecorderController */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +318,10 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DCC61779B8F30063F521 /* GameViewController */,
+				84A6DCC31779B8450063F521 /* MenuViewController */,
+				84A6DCC21779AC190063F521 /* SendMailController */,
+				84A6DCC11779AC060063F521 /* MailBoxController */,
 				84B07DF817730B94009742B8 /* RecorderController */,
 				84B17B0717720D0700DE86A7 /* DrawingController */,
 				84B17AFD177207EA00DE86A7 /* RegisterViewController */,
@@ -287,8 +343,8 @@
 		84B45A6C177080D2004A1E84 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				84B17AEA1771E41500DE86A7 /* MTSAudioManager.h */,
-				84B17AEB1771E41500DE86A7 /* MTSAudioManager.m */,
+				84A6DCC51779B8800063F521 /* DataManager */,
+				84A6DCC41779B8570063F521 /* AudioManager */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -376,6 +432,7 @@
 				84B17B381772100D00DE86A7 /* width.png in Resources */,
 				84B17B391772100D00DE86A7 /* Yellow.png in Resources */,
 				84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */,
+				84A6DCCB1779B9190063F521 /* MTSMenuViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +452,7 @@
 				84B17B041772082300DE86A7 /* MTSRegisterViewController.m in Sources */,
 				84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */,
 				84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */,
+				84A6DCCA1779B9190063F521 /* MTSMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
