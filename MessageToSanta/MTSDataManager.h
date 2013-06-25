@@ -11,4 +11,5 @@
 @interface MTSDataManager : NSObject
 + (NSArray *) allKidsNamesAgesArray;
 + (BOOL) kidsAlreadyExists;
++ (NSArray *) kidsArray;
 @end

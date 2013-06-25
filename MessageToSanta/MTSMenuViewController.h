@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Kid.h"
 
 @interface MTSMenuViewController : UIViewController
-
+@property (nonatomic, strong) Kid * selectedKid;
 @end
