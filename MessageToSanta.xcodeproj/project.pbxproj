@@ -24,6 +24,8 @@
 		84A6DD1C1779EF850063F521 /* MTSNewMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD1A1779EF850063F521 /* MTSNewMailViewController.xib */; };
 		84A6DD201779F6AF0063F521 /* MTSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD1E1779F6AF0063F521 /* MTSGameViewController.m */; };
 		84A6DD211779F6AF0063F521 /* MTSGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD1F1779F6AF0063F521 /* MTSGameViewController.xib */; };
+		84A6DD24177A010F0063F521 /* MTSMailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD23177A010F0063F521 /* MTSMailCell.m */; };
+		84A6DD27177A01300063F521 /* MTSMailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD26177A01300063F521 /* MTSMailCell.xib */; };
 		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
 		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
@@ -98,6 +100,9 @@
 		84A6DD1D1779F6AF0063F521 /* MTSGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSGameViewController.h; sourceTree = "<group>"; };
 		84A6DD1E1779F6AF0063F521 /* MTSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSGameViewController.m; sourceTree = "<group>"; };
 		84A6DD1F1779F6AF0063F521 /* MTSGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSGameViewController.xib; sourceTree = "<group>"; };
+		84A6DD22177A010F0063F521 /* MTSMailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSMailCell.h; sourceTree = "<group>"; };
+		84A6DD23177A010F0063F521 /* MTSMailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSMailCell.m; sourceTree = "<group>"; };
+		84A6DD26177A01300063F521 /* MTSMailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSMailCell.xib; sourceTree = "<group>"; };
 		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
 		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
 		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
@@ -172,6 +177,7 @@
 		84A6DCC11779AC060063F521 /* MailBoxController */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DD25177A01140063F521 /* MailCell */,
 				84A6DD121779EF6E0063F521 /* MTSMailBoxViewController.h */,
 				84A6DD131779EF6E0063F521 /* MTSMailBoxViewController.m */,
 				84A6DD141779EF6E0063F521 /* MTSMailBoxViewController.xib */,
@@ -242,6 +248,16 @@
 				84A6DD1A1779EF850063F521 /* MTSNewMailViewController.xib */,
 			);
 			name = NewMail;
+			sourceTree = "<group>";
+		};
+		84A6DD25177A01140063F521 /* MailCell */ = {
+			isa = PBXGroup;
+			children = (
+				84A6DD22177A010F0063F521 /* MTSMailCell.h */,
+				84A6DD23177A010F0063F521 /* MTSMailCell.m */,
+				84A6DD26177A01300063F521 /* MTSMailCell.xib */,
+			);
+			name = MailCell;
 			sourceTree = "<group>";
 		};
 		84B07DF817730B94009742B8 /* RecorderController */ = {
@@ -502,6 +518,7 @@
 				84A6DD161779EF6E0063F521 /* MTSMailBoxViewController.xib in Resources */,
 				84A6DD1C1779EF850063F521 /* MTSNewMailViewController.xib in Resources */,
 				84A6DD211779F6AF0063F521 /* MTSGameViewController.xib in Resources */,
+				84A6DD27177A01300063F521 /* MTSMailCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +548,7 @@
 				84A6DD151779EF6E0063F521 /* MTSMailBoxViewController.m in Sources */,
 				84A6DD1B1779EF850063F521 /* MTSNewMailViewController.m in Sources */,
 				84A6DD201779F6AF0063F521 /* MTSGameViewController.m in Sources */,
+				84A6DD24177A010F0063F521 /* MTSMailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

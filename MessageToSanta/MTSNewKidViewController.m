@@ -36,6 +36,7 @@
     [super viewDidLoad];
     self.nameTextField.delegate = self;
     self.selectedColor = [CIColor colorWithCGColor:[UIColor whiteColor].CGColor].stringRepresentation;
+    [self initializeButtons];
     // Do any additional setup after loading the view from its nib.
 }
 
