@@ -14,6 +14,7 @@
 		84A6DCF81779BE8F0063F521 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF71779BE8F0063F521 /* Kid.m */; };
 		84A6DCFB1779BE8F0063F521 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCFA1779BE8F0063F521 /* Mail.m */; };
 		84A6DCFE1779BE900063F521 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCFD1779BE900063F521 /* Parent.m */; };
+		84A6DD011779BF9D0063F521 /* MTSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD001779BF9D0063F521 /* MTSDataManager.m */; };
 		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
 		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
@@ -75,6 +76,8 @@
 		84A6DCFA1779BE8F0063F521 /* Mail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
 		84A6DCFC1779BE900063F521 /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
 		84A6DCFD1779BE900063F521 /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		84A6DCFF1779BF9D0063F521 /* MTSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSDataManager.h; sourceTree = "<group>"; };
+		84A6DD001779BF9D0063F521 /* MTSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSDataManager.m; sourceTree = "<group>"; };
 		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
 		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
 		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
@@ -184,6 +187,8 @@
 		84A6DCC51779B8800063F521 /* DataManager */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DCFF1779BF9D0063F521 /* MTSDataManager.h */,
+				84A6DD001779BF9D0063F521 /* MTSDataManager.m */,
 			);
 			name = DataManager;
 			sourceTree = "<group>";
@@ -483,6 +488,7 @@
 				84A6DCF81779BE8F0063F521 /* Kid.m in Sources */,
 				84A6DCFB1779BE8F0063F521 /* Mail.m in Sources */,
 				84A6DCFE1779BE900063F521 /* Parent.m in Sources */,
+				84A6DD011779BF9D0063F521 /* MTSDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

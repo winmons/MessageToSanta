@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MTSLogInViewController : UIViewController <UITextFieldDelegate>
+@interface MTSLogInViewController : UIViewController <UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIButton *logInButton;
 @property (strong, nonatomic) IBOutlet UITextField *nameTextField;
+@property (strong, nonatomic) IBOutlet UIButton *notInTheListButton;
+@property (strong, nonatomic) IBOutlet UIPickerView *kidsPickerView;
 
 @end

@@ -7,8 +7,10 @@
 //
 
 #import "MTSLogInViewController.h"
+#import "MTSDataManager.h"
 
 @interface MTSLogInViewController ()
+@property (nonatomic, strong) NSArray * kidsArray;
 
 @end
 
@@ -29,13 +31,14 @@
 {
     [super viewDidLoad];
     self.nameTextField.delegate = self;
+    
     // Do any additional setup after loading the view from its nib.
 }
 
 #pragma mark - actions
 
 - (void) logIn {
-    exit(0);
+    
 }
 
 #pragma mark - outlets actions
@@ -43,6 +46,32 @@
 - (IBAction)logInButtonTouch:(id)sender {
     [self logIn];
 }
+- (IBAction)notInTheListButtonTouch:(id)sender {
+    
+}
+
+#pragma mark - pickerView delegate
+- (NSInteger)numberOfComponentsInPickerView: (UIPickerView *)pickerView
+{
+    return 1;
+}
+
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+
+}
+
+-(void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+
+}
+
+#pragma mark - pickerView dataSource
 
 #pragma mark - textField delegate
 

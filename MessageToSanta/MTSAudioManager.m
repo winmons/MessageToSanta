@@ -25,7 +25,7 @@
 }
 
 - (void) startPlayingBackgroundMusic {
-    NSError *activationError = nil;
+//    NSError *activationError = nil;
     if ([[AVAudioSession sharedInstance] isInputAvailable]) {
         NSString *path = [[NSBundle mainBundle]pathForResource:@"jingle" ofType:@"mp3"];
         AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
