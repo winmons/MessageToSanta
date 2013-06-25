@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MTSMailCell : UITableViewCell
-
+@property (strong, nonatomic) IBOutlet UILabel *authorNameLabel;
+@property (strong, nonatomic) IBOutlet UILabel *themeLabel;
 @end
