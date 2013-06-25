@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12E55" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Kid" parentEntity="Parent" syncable="YES">
+    <entity name="Kid" representedClassName="Kid" parentEntity="Parent" syncable="YES">
         <attribute name="age" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mails" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Mail" inverseName="kid" inverseEntity="Mail" syncable="YES"/>
+        <relationship name="pictures" optional="YES" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="Picture" inverseName="kid" inverseEntity="Picture" syncable="YES"/>
+        <relationship name="records" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Record" inverseName="kid" inverseEntity="Record" syncable="YES"/>
     </entity>
-    <entity name="Mail" parentEntity="Parent" syncable="YES">
+    <entity name="Mail" representedClassName="Mail" parentEntity="Parent" syncable="YES">
         <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="inbox" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="receiver" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="theme" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kid" inverseName="mails" inverseEntity="Kid" syncable="YES"/>
     </entity>
-    <entity name="Parent" syncable="YES"/>
-    <entity name="Picture" parentEntity="Parent" syncable="YES">
+    <entity name="Parent" representedClassName="Parent" syncable="YES"/>
+    <entity name="Picture" representedClassName="Picture" parentEntity="Parent" syncable="YES">
         <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="kid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kid" inverseName="pictures" inverseEntity="Kid" syncable="YES"/>
+    </entity>
+    <entity name="Record" representedClassName="Record" parentEntity="Parent" syncable="YES">
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="path" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kid" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kid" inverseName="records" inverseEntity="Kid" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Kid" positionX="-432" positionY="-45" width="128" height="88"/>
-        <element name="Mail" positionX="-641" positionY="-45" width="128" height="118"/>
-        <element name="Picture" positionX="-245" positionY="-45" width="128" height="73"/>
+        <element name="Kid" positionX="-576" positionY="-81" width="128" height="133"/>
+        <element name="Mail" positionX="-794" positionY="-198" width="128" height="148"/>
+        <element name="Picture" positionX="-245" positionY="-45" width="128" height="88"/>
         <element name="Parent" positionX="-468" positionY="-261" width="128" height="43"/>
+        <element name="Record" positionX="-306" positionY="122" width="128" height="103"/>
     </elements>
 </model>

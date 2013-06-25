@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		84A6DCCA1779B9190063F521 /* MTSMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCC81779B9190063F521 /* MTSMenuViewController.m */; };
 		84A6DCCB1779B9190063F521 /* MTSMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DCC91779B9190063F521 /* MTSMenuViewController.xib */; };
+		84A6DCF21779BE8E0063F521 /* Record.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF11779BE8E0063F521 /* Record.m */; };
+		84A6DCF51779BE8F0063F521 /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF41779BE8F0063F521 /* Picture.m */; };
+		84A6DCF81779BE8F0063F521 /* Kid.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCF71779BE8F0063F521 /* Kid.m */; };
+		84A6DCFB1779BE8F0063F521 /* Mail.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCFA1779BE8F0063F521 /* Mail.m */; };
+		84A6DCFE1779BE900063F521 /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DCFD1779BE900063F521 /* Parent.m */; };
 		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
 		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
@@ -60,6 +65,16 @@
 		84A6DCC71779B9190063F521 /* MTSMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSMenuViewController.h; sourceTree = "<group>"; };
 		84A6DCC81779B9190063F521 /* MTSMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSMenuViewController.m; sourceTree = "<group>"; };
 		84A6DCC91779B9190063F521 /* MTSMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSMenuViewController.xib; sourceTree = "<group>"; };
+		84A6DCF01779BE8E0063F521 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Record.h; sourceTree = "<group>"; };
+		84A6DCF11779BE8E0063F521 /* Record.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Record.m; sourceTree = "<group>"; };
+		84A6DCF31779BE8F0063F521 /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		84A6DCF41779BE8F0063F521 /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		84A6DCF61779BE8F0063F521 /* Kid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kid.h; sourceTree = "<group>"; };
+		84A6DCF71779BE8F0063F521 /* Kid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kid.m; sourceTree = "<group>"; };
+		84A6DCF91779BE8F0063F521 /* Mail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mail.h; sourceTree = "<group>"; };
+		84A6DCFA1779BE8F0063F521 /* Mail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mail.m; sourceTree = "<group>"; };
+		84A6DCFC1779BE900063F521 /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		84A6DCFD1779BE900063F521 /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
 		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
 		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
 		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
@@ -336,6 +351,16 @@
 				84B45A68177080BF004A1E84 /* MTSDataModel.xcdatamodeld */,
 				84B17AF71772041900DE86A7 /* MTSCoreDataManager.h */,
 				84B17AF81772041900DE86A7 /* MTSCoreDataManager.m */,
+				84A6DCF01779BE8E0063F521 /* Record.h */,
+				84A6DCF11779BE8E0063F521 /* Record.m */,
+				84A6DCF31779BE8F0063F521 /* Picture.h */,
+				84A6DCF41779BE8F0063F521 /* Picture.m */,
+				84A6DCF61779BE8F0063F521 /* Kid.h */,
+				84A6DCF71779BE8F0063F521 /* Kid.m */,
+				84A6DCF91779BE8F0063F521 /* Mail.h */,
+				84A6DCFA1779BE8F0063F521 /* Mail.m */,
+				84A6DCFC1779BE900063F521 /* Parent.h */,
+				84A6DCFD1779BE900063F521 /* Parent.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -453,6 +478,11 @@
 				84B17B0B17720D3D00DE86A7 /* MTSDrawingViewController.m in Sources */,
 				84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */,
 				84A6DCCA1779B9190063F521 /* MTSMenuViewController.m in Sources */,
+				84A6DCF21779BE8E0063F521 /* Record.m in Sources */,
+				84A6DCF51779BE8F0063F521 /* Picture.m in Sources */,
+				84A6DCF81779BE8F0063F521 /* Kid.m in Sources */,
+				84A6DCFB1779BE8F0063F521 /* Mail.m in Sources */,
+				84A6DCFE1779BE900063F521 /* Parent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
