@@ -9,9 +9,12 @@
 #import "MTSNewKidViewController.h"
 #import "MTSDataManager.h"
 #import <CoreImage/CoreImage.h>
+#import "MTSMenuViewController.h"
+#import "Kid.h"
 
 @interface MTSNewKidViewController ()
 @property (nonatomic, strong) NSString * selectedColor;
+@property (nonatomic, strong) Kid * selectedKid;
 @end
 
 @implementation MTSNewKidViewController
@@ -31,6 +34,7 @@
 {
     [super viewDidLoad];
     self.nameTextField.delegate = self;
+    self.selectedColor = [CIColor colorWithCGColor:[UIColor whiteColor].CGColor].stringRepresentation;
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -72,7 +76,15 @@
 }
 
 - (IBAction)completeButtonTouch:(id)sender {
-    [MTSDataManager addNewKidToDataBaseWithName:self.nameTextField.text age:@([self.agePickerViewController selectedRowInComponent:0]) favouriteColor:self.selectedColor];
+    if (![self.nameTextField.text length]>0) self.nameTextField.text = @"Kid";
+    self.selectedKid = [MTSDataManager addNewKidToDataBaseWithName:self.nameTextField.text age:@([self.agePickerViewController selectedRowInComponent:0]) favouriteColor:self.selectedColor];
+    [self presentMenuViewController];
+}
+
+- (void) presentMenuViewController {
+    MTSMenuViewController * menuViewController = [MTSMenuViewController new];
+    menuViewController.selectedKid = self.selectedKid;
+    [self presentViewController:menuViewController animated:YES completion:nil];
 }
 
 #pragma mark - pickerView dataSource

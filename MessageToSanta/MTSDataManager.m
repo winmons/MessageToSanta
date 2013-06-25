@@ -8,7 +8,6 @@
 
 #import <CoreData/CoreData.h>
 #import "MTSDataManager.h"
-#import "Kid.h"
 #import "MTSCoreDataManager.h"
 
 @implementation MTSDataManager
@@ -49,12 +48,13 @@
     return [context executeFetchRequest:fetch error:nil];
 }
 
-+ (void) addNewKidToDataBaseWithName : (NSString *) name age : (NSNumber *) age favouriteColor : (NSString *) color {
++ (Kid *) addNewKidToDataBaseWithName : (NSString *) name age : (NSNumber *) age favouriteColor : (NSString *) color {
     Kid * newKid = [Kid insertObject];
     newKid.name = name;
     newKid.age = age;
     newKid.color = color;
     [[MTSCoreDataManager coreDataManager]saveContext];
+    return newKid;
 }
 
 @end

@@ -18,6 +18,12 @@
 		84A6DD0E1779DC800063F521 /* MTSNewKidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD0C1779DC800063F521 /* MTSNewKidViewController.m */; };
 		84A6DD0F1779DC800063F521 /* MTSNewKidViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD0D1779DC800063F521 /* MTSNewKidViewController.xib */; };
 		84A6DD111779E9390063F521 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A6DD101779E9390063F521 /* CoreImage.framework */; };
+		84A6DD151779EF6E0063F521 /* MTSMailBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD131779EF6E0063F521 /* MTSMailBoxViewController.m */; };
+		84A6DD161779EF6E0063F521 /* MTSMailBoxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD141779EF6E0063F521 /* MTSMailBoxViewController.xib */; };
+		84A6DD1B1779EF850063F521 /* MTSNewMailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD191779EF850063F521 /* MTSNewMailViewController.m */; };
+		84A6DD1C1779EF850063F521 /* MTSNewMailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD1A1779EF850063F521 /* MTSNewMailViewController.xib */; };
+		84A6DD201779F6AF0063F521 /* MTSGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A6DD1E1779F6AF0063F521 /* MTSGameViewController.m */; };
+		84A6DD211779F6AF0063F521 /* MTSGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A6DD1F1779F6AF0063F521 /* MTSGameViewController.xib */; };
 		84B07DFC17730BBE009742B8 /* MTSRecorderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */; };
 		84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */; };
 		84B17AE61771E07900DE86A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B17AE51771E07900DE86A7 /* AVFoundation.framework */; };
@@ -83,6 +89,15 @@
 		84A6DD0C1779DC800063F521 /* MTSNewKidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSNewKidViewController.m; sourceTree = "<group>"; };
 		84A6DD0D1779DC800063F521 /* MTSNewKidViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSNewKidViewController.xib; sourceTree = "<group>"; };
 		84A6DD101779E9390063F521 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		84A6DD121779EF6E0063F521 /* MTSMailBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSMailBoxViewController.h; sourceTree = "<group>"; };
+		84A6DD131779EF6E0063F521 /* MTSMailBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSMailBoxViewController.m; sourceTree = "<group>"; };
+		84A6DD141779EF6E0063F521 /* MTSMailBoxViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSMailBoxViewController.xib; sourceTree = "<group>"; };
+		84A6DD181779EF850063F521 /* MTSNewMailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSNewMailViewController.h; sourceTree = "<group>"; };
+		84A6DD191779EF850063F521 /* MTSNewMailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSNewMailViewController.m; sourceTree = "<group>"; };
+		84A6DD1A1779EF850063F521 /* MTSNewMailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSNewMailViewController.xib; sourceTree = "<group>"; };
+		84A6DD1D1779F6AF0063F521 /* MTSGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSGameViewController.h; sourceTree = "<group>"; };
+		84A6DD1E1779F6AF0063F521 /* MTSGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSGameViewController.m; sourceTree = "<group>"; };
+		84A6DD1F1779F6AF0063F521 /* MTSGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSGameViewController.xib; sourceTree = "<group>"; };
 		84B07DF917730BBE009742B8 /* MTSRecorderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSRecorderViewController.h; sourceTree = "<group>"; };
 		84B07DFA17730BBE009742B8 /* MTSRecorderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSRecorderViewController.m; sourceTree = "<group>"; };
 		84B07DFB17730BBE009742B8 /* MTSRecorderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSRecorderViewController.xib; sourceTree = "<group>"; };
@@ -157,6 +172,9 @@
 		84A6DCC11779AC060063F521 /* MailBoxController */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DD121779EF6E0063F521 /* MTSMailBoxViewController.h */,
+				84A6DD131779EF6E0063F521 /* MTSMailBoxViewController.m */,
+				84A6DD141779EF6E0063F521 /* MTSMailBoxViewController.xib */,
 			);
 			name = MailBoxController;
 			sourceTree = "<group>";
@@ -199,6 +217,9 @@
 		84A6DCC61779B8F30063F521 /* GameViewController */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DD1D1779F6AF0063F521 /* MTSGameViewController.h */,
+				84A6DD1E1779F6AF0063F521 /* MTSGameViewController.m */,
+				84A6DD1F1779F6AF0063F521 /* MTSGameViewController.xib */,
 			);
 			name = GameViewController;
 			sourceTree = "<group>";
@@ -211,6 +232,16 @@
 				84A6DD0D1779DC800063F521 /* MTSNewKidViewController.xib */,
 			);
 			name = NewKidViewController;
+			sourceTree = "<group>";
+		};
+		84A6DD171779EF740063F521 /* NewMail */ = {
+			isa = PBXGroup;
+			children = (
+				84A6DD181779EF850063F521 /* MTSNewMailViewController.h */,
+				84A6DD191779EF850063F521 /* MTSNewMailViewController.m */,
+				84A6DD1A1779EF850063F521 /* MTSNewMailViewController.xib */,
+			);
+			name = NewMail;
 			sourceTree = "<group>";
 		};
 		84B07DF817730B94009742B8 /* RecorderController */ = {
@@ -342,6 +373,7 @@
 		84B45A5D1770802B004A1E84 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				84A6DD171779EF740063F521 /* NewMail */,
 				84A6DD0A1779DC6E0063F521 /* NewKidViewController */,
 				84A6DCC61779B8F30063F521 /* GameViewController */,
 				84A6DCC31779B8450063F521 /* MenuViewController */,
@@ -467,6 +499,9 @@
 				84B07DFD17730BBE009742B8 /* MTSRecorderViewController.xib in Resources */,
 				84A6DCCB1779B9190063F521 /* MTSMenuViewController.xib in Resources */,
 				84A6DD0F1779DC800063F521 /* MTSNewKidViewController.xib in Resources */,
+				84A6DD161779EF6E0063F521 /* MTSMailBoxViewController.xib in Resources */,
+				84A6DD1C1779EF850063F521 /* MTSNewMailViewController.xib in Resources */,
+				84A6DD211779F6AF0063F521 /* MTSGameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +528,9 @@
 				84A6DD011779BF9D0063F521 /* MTSDataManager.m in Sources */,
 				84A6DD041779DAC30063F521 /* Kid.m in Sources */,
 				84A6DD0E1779DC800063F521 /* MTSNewKidViewController.m in Sources */,
+				84A6DD151779EF6E0063F521 /* MTSMailBoxViewController.m in Sources */,
+				84A6DD1B1779EF850063F521 /* MTSNewMailViewController.m in Sources */,
+				84A6DD201779F6AF0063F521 /* MTSGameViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

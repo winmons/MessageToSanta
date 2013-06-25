@@ -37,6 +37,7 @@
     self.nameTextField.delegate = self;
     self.kidsArray = [MTSDataManager allKidsNamesAgesArray];
     self.kidsObjectsArray = [MTSDataManager kidsArray];
+    self.nameTextField.text = [self.kidsArray objectAtIndex:0];
 }
 
 #pragma mark - actions
